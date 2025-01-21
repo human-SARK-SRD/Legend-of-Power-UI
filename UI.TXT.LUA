@@ -201,34 +201,34 @@ function library.new(library, name, theme)
     end
     local Language = {
         ["en-us"] = {
-            Universal = "Welcome",
-            OpenUI = "Open",
-            HideUI = "Hide",
-            Currently = "Currently："
+            Universal = "欢迎使用沙特克脚本",
+            OpenUI = "打开",
+            HideUI = "隐藏",
+            Currently = "当前："
         },
         ["zh-cn"] = {
-            Universal = "欢迎使用云脚本",
-            OpenUI = "打开UI",
-            HideUI = "隐藏UI",
+            Universal = "欢迎使用沙特克脚本",
+            OpenUI = "打开",
+            HideUI = "隐藏",
             Currently = "当前："
         },
         ["zh-tw"] = {
-            Universal = "歡迎使用雲腳本",
-            OpenUI = "打開UI",
-            HideUI = "隱藏UI",
-            Currently = "當前："
+            Universal = "欢迎使用沙特克脚本",
+            OpenUI = "打开",
+            HideUI = "隐藏",
+            Currently = "当前："
         },
         ["zh-hk"] = { 
-            Universal = "歡迎使用雲腳本",
-            OpenUI = "打開UI",
-            HideUI = "隱藏UI",
-            Currently = "當前："
+            Universal = "欢迎使用沙特克脚本",
+            OpenUI = "打开",
+            HideUI = "隐藏",
+            Currently = "当前："
         },
         ["fr-fr"] = {
-            Universal = "Bienvenue",
-            OpenUI = "Ouvrir l'UI",
-            HideUI = "Masquer l'UI",
-            Currently = "Actuellement :"
+            Universal = "欢迎使用沙特克脚本",
+            OpenUI = "打开",
+            HideUI = "隐藏",
+            Currently = "当前："
         }
     }
     local Players = game:GetService("Players")
@@ -1710,3 +1710,6 @@ function library.new(library, name, theme)
         return window
     end
 return library
+--local window = library:new("11")
+--local mainAV = window:Tab("关于", "")
+--local information = mainAV:section("信息", false)
