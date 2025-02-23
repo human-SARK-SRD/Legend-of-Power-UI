@@ -570,22 +570,6 @@ UIG.Parent = Open
           SectionText.TextSize = 16.000
           SectionText.TextXAlignment = Enum.TextXAlignment.Left
           
-          SectionOpen.Name = "SectionOpen"
-          SectionOpen.Parent = SectionText
-          SectionOpen.BackgroundTransparency = 1
-          SectionOpen.BorderSizePixel = 0
-          SectionOpen.Position = UDim2.new(0, -33, 0, 5)
-          SectionOpen.Size = UDim2.new(0, 26, 0, 26)
-          SectionOpen.Image = "rbxassetid://"
-          
-          SectionOpened.Name = "SectionOpened"
-          SectionOpened.Parent = SectionOpen
-          SectionOpened.BackgroundTransparency = 1.000
-          SectionOpened.BorderSizePixel = 0
-          SectionOpened.Size = UDim2.new(0, 26, 0, 26)
-          SectionOpened.Image = "rbxassetid://"
-          SectionOpened.ImageTransparency = 1.000
-    
           SectionToggle.Name = "SectionToggle"
           SectionToggle.Parent = SectionOpen
           SectionToggle.BackgroundTransparency = 1
